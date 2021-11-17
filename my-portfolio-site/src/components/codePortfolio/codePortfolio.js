@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './CodePortfolio';
 
 export default function codePortfolio() {
     return (
-        <div>
+        <div className='codePortfolio'>
             
         </div>
     )

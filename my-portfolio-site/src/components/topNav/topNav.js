@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './TopNav.css';
 
 export default function topNav() {
     return (
-        <div>
+        <div className='topNav'>
             
         </div>
     )

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './ArtPortfolio.css';
 
 export default function artPortfolio() {
     return (
-        <div>
+        <div className='artPortfolio'>
             
         </div>
     )
