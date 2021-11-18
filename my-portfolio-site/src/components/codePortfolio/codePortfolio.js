@@ -1,5 +1,5 @@
 import React from 'react';
-import './CodePortfolio';
+import './codePortfolio.css';
 
 export default function codePortfolio() {
     return (

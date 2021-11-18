@@ -1,5 +1,5 @@
 import React from 'react';
-import './TopNav.css';
+import './topNav.css';
 
 export default function topNav() {
     return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "./app.css";
 import TopNav from './components/TopNav/TopNav'
 import Intro from "./components/Intro/Intro";
 import CodePortfolio from "./components/CodePortfolio/CodePortfolio";
@@ -7,12 +8,15 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <TopNav/>
-      <Intro/>
-      <CodePortfolio/>
-      <ArtPortfolio/>
-      <Contact/>
+      <div className="sections">
+        <Intro/>
+        <CodePortfolio/>
+        <ArtPortfolio/>
+        <Contact/>
+      </div>
+      
     </div>
   );
 }

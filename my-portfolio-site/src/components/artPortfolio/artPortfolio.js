@@ -1,5 +1,5 @@
 import React from 'react';
-import './ArtPortfolio.css';
+import './artPortfolio.css';
 
 export default function artPortfolio() {
     return (
