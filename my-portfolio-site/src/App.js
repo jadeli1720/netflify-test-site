@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./app.scss";
 import TopNav from './components/TopNav/TopNav'
 import Intro from "./components/Intro/Intro";
 import CodePortfolio from "./components/CodePortfolio/CodePortfolio";

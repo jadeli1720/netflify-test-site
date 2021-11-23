@@ -41,21 +41,25 @@ blockquote, q {
 	quotes: "" "";
 	}
 
-.App {
-    height: 100vh;
-}
-
-.sections {
-        width: 100%;
-        height: calc(100vh - 6em);
-        position: relative;
-        background-color: cadetblue;
-        position: relative;
-        top: 8em;
-    }
-
-
-.sections > * {
-	width: 100%;
-	height: calc(100vh);
-}
+.app{
+	height: 100vh;
+	
+	.sections{
+		width: 100%;
+		height: 100vh;
+		background-color: lightsalmon;
+		position: relative;
+		scroll-behavior: smooth;
+		scroll-snap-type: y mandatory;
+		scrollbar-width: none;
+			&::-webkit-scrollbar{
+				display: none;
+			}
+	
+	> *{
+		width: 100%;
+		height: 100vh;
+		scroll-snap-align: start;
+			}
+		}
+	}
