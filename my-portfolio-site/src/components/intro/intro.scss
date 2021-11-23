@@ -18,6 +18,12 @@
     }
     .right {
         flex: 0.5;
-        
+        h1 {
+            padding-top: 30%;
+            padding-bottom: 5%;
+            font-family: 'Fredoka One', 'Arial Black';
+            color: #fff;
+            font-size: 2em;
+        }
     }
 }
