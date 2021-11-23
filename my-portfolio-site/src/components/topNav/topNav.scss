@@ -60,7 +60,7 @@
 
         span {
             width: 100%;
-            height: .3em;
+            height: .5em;
             background-color: #000000;
             transform-origin: left;
             transition: all 2s ease;
@@ -68,8 +68,27 @@
     }
     } 
 }
-//     &.active {
-//         background-color:#000000;
-//         color:#FFFFFF;
-//   }
+
+&.active {
+    background-color: #808080;
+    color: white;
+
+    .hamburger {
+      span {
+        &:first-child {
+          background-color: white;
+          transform: rotate(45deg);
+          height: .6em;
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          background-color: white;
+          transform: rotate(-45deg);
+          height: .6em;
+        }
+      }
+    }
+  }
 }

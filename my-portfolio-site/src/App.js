@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "./app.scss";
 import TopNav from './components/TopNav/TopNav'
 import Intro from "./components/Intro/Intro";
@@ -7,9 +7,10 @@ import ArtPortfolio from "./components/ArtPortfolio/ArtPortfolio";
 import Contact from "./components/Contact/Contact";
 
 function App() {
+  const [burgerOpen, setBurgerOpen] = useState(false);
   return (
     <div className="app">
-      <TopNav/>
+      <TopNav burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen}/>
       <div className="sections">
         <Intro/>
         <CodePortfolio/>
