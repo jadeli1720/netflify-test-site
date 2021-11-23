@@ -6,7 +6,7 @@
     top: 0;
     z-index: 2;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
-}
+
 
 .wrapper {
     padding-left: 2em;
@@ -19,12 +19,27 @@
     display: flex;
     align-items: center;
 
+    .title {
+        display: block;
+        text-align: center;
+
+        h2 {
+            font-size: 2em;
+            padding-bottom: .5em;
+        }
+
+        h3 {
+            font-size: 1em;
+        
+        }
+    }
+
     .logo {
       font-size: 40px;
       font-weight: 700;
       text-decoration: none;
       color: inherit;
-      margin-right: 40px;
+      margin-right: 1em;
         img {
             padding-top: .05em;
             width: 3.9em;
@@ -32,4 +47,29 @@
         }
         }
     }
+
+
+    .right {
+        .hamburger {
+            width: 2em;
+            height: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+
+        span {
+            width: 100%;
+            height: .3em;
+            background-color: #000000;
+            transform-origin: left;
+            transition: all 2s ease;
+        }
+    }
+    } 
+}
+//     &.active {
+//         background-color:#000000;
+//         color:#FFFFFF;
+//   }
 }
