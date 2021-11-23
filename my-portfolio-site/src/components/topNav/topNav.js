@@ -12,9 +12,6 @@ export default function topNav({ burgerOpen, setBurgerOpen }) {
                         <h3>Full Stack Developer</h3>
                     </div>
                 </div>
-
-                <h2>React | JavaScript | HTML | CSS | Redux | Git | Node | SQL | Adobe Creative Suite</h2>
-
                 <div className="right">
                     <div className="hamburger" onClick={()=>setBurgerOpen(!burgerOpen)}>
                         <span className="line1"></span>
