@@ -12,7 +12,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin: 0;
 	border: 0;
 	}
-/* remember to define focus styles! */
 :focus {
 	outline: 0;
 	}
@@ -24,7 +23,6 @@ body {
 ol, ul {
 	list-style: none;
 	}
-/* tables still need cellspacing="0" in the markup */
 table {
 	border-collapse: separate;
 	border-spacing: 0;
@@ -33,7 +31,6 @@ caption, th, td {
 	font-weight: normal;
 	text-align: left;
 	}
-/* remove possible quote marks (") from <q> & <blockquote> */
 blockquote:before, blockquote:after, q:before, q:after {
 	content: "";
 	}

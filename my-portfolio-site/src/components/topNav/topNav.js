@@ -10,7 +10,10 @@ export default function topNav() {
                     <a href="#intro" className="logo"><img src="/images/logoTest.png" alt="William Paris Logo"/></a>
                 </div>
                 <div className="right">
-
+                <a href="#intro">About</a>
+                    <a href="#codePortfolio">Code</a>
+                    <a href="#artPortfolio">Art</a>
+                    <a href="#contact">Contact</a>
                 </div>
 
             </div>
