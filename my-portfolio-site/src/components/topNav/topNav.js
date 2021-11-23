@@ -21,10 +21,6 @@ export default function topNav({ burgerOpen, setBurgerOpen }) {
                         <span className="line2"></span>
                         <span className="line3"></span>
                     </div>
-                    {/* <a href="#intro">About</a>
-                    <a href="#codePortfolio">Code</a>
-                    <a href="#artPortfolio">Art</a>
-                    <a href="#contact">Contact</a> */}
                 </div>
 
             </div>
