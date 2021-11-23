@@ -62,7 +62,7 @@
             height: .5em;
             background-color: #993333;
             transform-origin: left;
-            transition: all 2s ease;
+            transition: all 1s ease;
         }
     }
     } 
@@ -70,12 +70,12 @@
 
 &.active {
     background-color: #808080;
-    color: white;
+    color: #fff;
 
     .hamburger {
       span {
         &:first-child {
-          background-color: white;
+          background-color: #fff;
           transform: rotate(45deg);
           height: .6em;
         }
@@ -83,7 +83,7 @@
           opacity: 0;
         }
         &:last-child {
-          background-color: white;
+          background-color: #FFF;
           transform: rotate(-45deg);
           height: .6em;
         }
