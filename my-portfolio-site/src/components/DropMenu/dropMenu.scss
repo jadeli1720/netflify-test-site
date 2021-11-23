@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    font-family: 'Fredoka One', 'Arial Black';
 
     &.active {
         right: 0;
