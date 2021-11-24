@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./app.scss";
-import TopNav from './components/TopNav/TopNav'
+import TopNav from "./components/TopNav/TopNav"
 import Intro from "./components/Intro/Intro";
 import CodePortfolio from "./components/CodePortfolio/CodePortfolio";
 import ArtPortfolio from "./components/ArtPortfolio/ArtPortfolio";
