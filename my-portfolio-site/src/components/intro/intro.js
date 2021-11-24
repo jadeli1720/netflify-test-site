@@ -18,6 +18,7 @@ export default function intro() {
                     <button className="resume">Resume</button>
                 </div>
             </div>
+            
         </div>
     )
 }

@@ -43,8 +43,12 @@
         img {
             margin-top: 20%;
             width: 80%;
-            border-radius: 10px;
-            border: solid .5em #808080;
+            border-radius: 2em;
+            border: solid .5em transparent;
+
+            &:hover {
+                border: solid .5em #808080;
+            }
         }
 
         h3 {
@@ -55,6 +59,22 @@
             align-items: center;
             margin-right: 15%;
             margin-top: 5%;
+            padding-bottom: 32%;
         }
+    }
+
+    .git {
+        width: 8em;
+        height: 3em;
+        font-family: 'Fredoka One', 'Arial Black';
+        font-size: 1.2em;
+        border-radius: 10px;
+        color: #339999;
+        border: none;
+
+            &:hover{
+                color: #fff;
+                background-color: #339999;
+            }
     }
     }

@@ -6,7 +6,8 @@ export default function codePortfolio() {
         <div className="codePortfolio" id="codePortfolio">
                 <h1>My Code</h1>
                 <ul>
-                    <li className='active'>Portfolio Site</li>
+                    <li className='active'>Featured</li>
+                    <li>Portfolio Site</li>
                     <li>React Router Movies</li>
                     <li>Nasa Photo of The Day</li>
                     <li>African Market</li>
@@ -28,7 +29,8 @@ export default function codePortfolio() {
                     <img src="/images/CodeCapture.png" alt="African Market"/>
                     <h3>Current Project</h3>
                     </div>
-                </div>    
+                </div>
+                <button className="git">My Github</button>
         </div>
     )
 }
