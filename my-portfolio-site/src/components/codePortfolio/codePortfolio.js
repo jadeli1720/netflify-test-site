@@ -24,7 +24,7 @@ export default function codePortfolio() {
                 <ul>
                     <li className='active'>Featured</li>
                     <li>Portfolio Site</li>
-                    <li>React Router Movies</li>
+                    <li>React Plant Website</li>
                     <li>Nasa Photo of The Day</li>
                     <li>African Market</li>
                 </ul>
