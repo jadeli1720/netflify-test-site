@@ -1,3 +1,38 @@
 .artPortfolio {
     background-color: #339999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 2.5em;
+        font-family: 'Fredoka One', 'Arial Black';
+        color: #fff;
+        padding-top: 12%;
+        padding-bottom: 2%;
+    }
+
+    .container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin-top: 10%;
+            width: 40%;
+
+        }
+
+        h3 {
+            font-family: 'Fredoka One', 'Arial Black';
+            color:#fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15%;
+            margin-top: 5%;
+            padding-bottom: 32%;
+        }
+    }
 }
