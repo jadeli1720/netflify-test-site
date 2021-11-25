@@ -14,10 +14,6 @@ export default function artPortfolio() {
                     <img src="/images/FetchLogoFinal.png" alt="Fetch Logo"/>
                     <h3>Fetch Logo</h3>
                 </div>
-                <div className="item">
-                    <img src="" alt="William Paris Logo"/>
-                    <h3>WIP</h3>
-                </div>
             </div>
         </div>
     )
