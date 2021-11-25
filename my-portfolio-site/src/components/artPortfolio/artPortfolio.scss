@@ -1,36 +1,58 @@
 .artPortfolio {
     background-color: #339999;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    h1 {
-        font-size: 2.5em;
-        font-family: 'Fredoka One', 'Arial Black';
-        color: #fff;
-        padding-top: 12%;
-        padding-bottom: 2%;
+    .left {
+        flex: 0.5;
+        
+        .imgContainer {
+            width: 100%;
+            padding-top: 35%;
+            padding-left: 10%;
+            
+            img {
+                width: 45%;
+
+                
+            }
+
+            .fetch{
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+        }
     }
 
-    .container {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 20%;
+    .right {
+        flex: 0.5;
 
-        img {
-            width: 70%;
-        }
-
-        h3 {
+        .textContainer {
+            padding-left: 10%;
+            padding-top: 10%;
+        h1 {
+            padding-top: 30%;
+            padding-bottom: 5%;
             font-family: 'Fredoka One', 'Arial Black';
-            color:#fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 2%;
-            margin-right: 30%;
+            color: #fff;
+            font-size: 2.5em;
         }
+
+        p {
+            padding-bottom: 2%;
+            margin-right: 20%;
+            color: #fff;
+            font-family: 'Fredoka One', 'Arial Black';
+            font-size: 1.5em;
+        }
+
+        span {
+            color: #993333;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
     }
 }
