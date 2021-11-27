@@ -90,4 +90,14 @@
       }
     }
   }
+
+  @media (max-width: 500px) {
+
+    width: 75%;
+
+    .wrapper {
+      padding-right: 2em;   
+  }
+    
+  }
 }

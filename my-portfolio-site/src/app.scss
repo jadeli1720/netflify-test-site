@@ -58,4 +58,10 @@ blockquote, q {
 		// scroll-snap-align: start;
 			}
 		}
+
+		@media (max-width: 500px) {
+
+			width: 125%;
+			
+		}
 	}
