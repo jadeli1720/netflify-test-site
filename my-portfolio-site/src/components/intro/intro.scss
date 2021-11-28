@@ -50,10 +50,22 @@
             border: none;
 
             &:hover{
-                color: #fff;
+                
                 background-color: #993333;
                 transition: 0.6s all;
                 cursor: pointer;
+                a{
+                    color:#fff
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: #993333;
+
+                &:hover {
+                    color: #fff;
+                }
             }
         }
     }
